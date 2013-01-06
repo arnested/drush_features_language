@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * @file
+ * Small hack to unset default language when running drush features-* commands.
+ */
+
+/**
  * Implements hook_drush_help_alter().
  *
  * All features commands should be run with the default language set to English.
